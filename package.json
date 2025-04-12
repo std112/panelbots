@@ -1,0 +1,21 @@
+{
+  "name": "tf2-trade-bot",
+  "version": "1.0.0",
+  "description": "Automated TF2 trade bot using Steam, Backpack.tf, and Discord Webhooks",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "axios": "^1.6.8",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.4",
+    "fs": "^0.0.1-security",
+    "multer": "^1.4.5-lts.1",
+    "path": "^0.12.7",
+    "steam-user": "^4.21.5",
+    "steamcommunity": "^3.44.3",
+    "steam-totp": "^2.1.1",
+    "steam-tradeoffer-manager": "^2.12.4"
+  }
+}
